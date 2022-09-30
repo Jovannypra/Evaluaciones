@@ -1,12 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module2-solution</title>
+  <style>
+    * {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+h1 {
+    margin-bottom: 80px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+}
+div {
+    display: block;
+}
+
+.html{
+  font-size: 20px;
+    background-color: yellowgreen;
+    float: right;
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.css{
+  font-size: 20px;
+    background-color: purple;
+    float: right;
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.java{
+  font-size: 20px;
+    background-color: yellowgreen;
+    float: right;
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+   
+p{
+  border: 2px blue;
+    background-color:#E6399B;
+    width: 90%;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    padding: 20px;
+}
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 4px solid white;
+    margin: auto;
+    background-color: #E6399B;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 4px solid white;
+    margin: auto;
+    background-color: #E6399B;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+   .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+    border: 4px solid white;
+    margin: auto;
+    background-color: #E6399B;
+
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+.multicolor-text {
+            text-align: center;
+            font-size: 50px;
+            background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+
+            }
+
+            .html{
+              color: #85004B;
+            }
+            .css{
+              color: azure;
+            }
+            .java{
+              color: #C9F76F;
+            }
+            h3{
+                text-align: center;
+
+            }
+           
+  </style>
+
 </head>
 <body>
-    <h1>PRUEBA</h1>
-</body>
+      <div>
+         <H1 class="multicolor-text">Menu Multicolor </H1>
+      </div>
+ 
+  
+  
+      <div class="row">
+           <div class="col-lg-4 col-md-6 col-sm-12">
+             <h2 class="html">Html</h2>
+             <p id="uno">
+                 HTML (Lenguaje de marcado de hipertexto o HyperText Markup Language por sus siglas 
+                en inglés) es un lenguaje descriptivo que especifica la estructura de las páginas web..</p>
+      
+       </div>
+  
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <h2 class="css">Css</h2>
+        <p id="dos">
+          CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir 
+          y crear la presentación de un documento estructurado 
+          escrito en un lenguaje de marcado.
+        </p>
+      </div>
+  
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        
+        <h2 class="java">javascript</h2>
+        <p id="tres">JavaScript es un lenguaje de programación interpretado, dialecto 
+          del estándar ECMAScript. Se define como orientado a objetos,
+          basado en prototipos, imperativo, débilmente tipado y dinámico..</p>
+      </div>
+      
+    </div>
+  
+      
+  <hr >
+  <h3 class="multicolor-text">By Jovanny Prado</h3>
+  
+  </body>
+  
 </html>
