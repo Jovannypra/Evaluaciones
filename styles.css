@@ -4,19 +4,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     background: linear-gradient(to left,
-            violet,
-            indigo,
-            blue,
+            #664c00,
+            #461400,
+            gray,
             green,
             yellow,
-            orange,
-            red);
+            #ffaabe,
+            #ffffac);
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.container {
-    width: 100%;
-    border: solid violet 1px;
-       }
-    
