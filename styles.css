@@ -3,15 +3,6 @@ h1 {
 
     text-align: center;
     font-size: 50px;
-    background: linear-gradient(to left,
-            #664c00,
-            #461400,
-            gray,
-            green,
-            yellow,
-            #ffaabe,
-            #ffffac);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: blueviolet;
 }
 
