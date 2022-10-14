@@ -13,3 +13,9 @@ h1 {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.container {
+    width: 100%;
+    border: solid violet 1px;
+    }
+    
